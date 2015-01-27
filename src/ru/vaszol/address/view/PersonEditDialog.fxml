@@ -5,7 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vaszol.address.view.PersonEditDialogController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vaszol.address.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="89.0" layoutY="89.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
         <columnConstraints>
@@ -37,8 +37,8 @@
       </GridPane>
       <HBox layoutX="200.0" layoutY="254.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
          <children>
-            <Button layoutX="200.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="80.0" text="Ok" />
-            <Button layoutX="305.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleCancel" prefWidth="80.0" text="Cancel" />
+            <Button defaultButton="true" layoutX="200.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleOk" text="Ok" />
+            <Button layoutX="305.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
          </children>
          <padding>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import ru.vaszol.address.model.Person;
 import ru.vaszol.address.view.PersonEditDialogController;
 import ru.vaszol.address.view.PersonOverviewController;
+import javafx.scene.image.*;
 
 import java.io.IOException;
 
@@ -52,7 +53,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) throws Exception{
         this.primaryStage=primaryStage;
         this.primaryStage.setTitle("AddressApp");
-
+        this.primaryStage.getIcons().add(new Image("file:res/images/address_book.png"));
         initRootLayout();
 
         showPersonOverview();
